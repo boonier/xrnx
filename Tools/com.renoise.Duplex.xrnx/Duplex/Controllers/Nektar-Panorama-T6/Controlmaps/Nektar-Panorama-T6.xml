@@ -1,0 +1,71 @@
+<Device>
+  <Name>Nektar Panorama T6</Name>
+  <Author>Boonier</Author>
+  <Description>Mackie Mixer for Nektar-Panorama-T6
+    Select any Generic Preset on the Nektar-Panorama-T6 for this configuration and set transport to 'CTRL' in edit
+    mode.</Description>
+  <Parameters>
+    <Page>
+      <Column>
+        <Group name="Pans" orientation="horizontal">
+          <Param value="CC#89" type="dial" name="Dial #1" maximum="127" minimum="0" />
+          <Param value="CC#90" type="dial" name="Dial #2" maximum="127" minimum="0" />
+          <Param value="CC#96" type="dial" name="Dial #3" maximum="127" minimum="0" />
+          <Param value="CC#97" type="dial" name="Dial #4" maximum="127" minimum="0" />
+          <Param value="CC#116" type="dial" name="Dial #5" maximum="127" minimum="0" />
+          <Param value="CC#117" type="dial" name="Dial #6" maximum="127" minimum="0" />
+          <Param value="CC#118" type="dial" name="Dial #7" maximum="127" minimum="0" />
+          <Param value="CC#119" type="dial" name="Dial #8" maximum="127" minimum="0" />
+        </Group>
+        
+        <Group name="Levels" orientation="horizontal">
+          <Param value="CC#80" type="fader" name="Fader #1" orientation="vertical" size="3" maximum="127" minimum="0" />
+          <Param value="CC#81" type="fader" name="Fader #2" orientation="vertical" size="3" maximum="127" minimum="0" />
+          <Param value="CC#82" type="fader" name="Fader #3" orientation="vertical" size="3" maximum="127" minimum="0" />
+          <Param value="CC#83" type="fader" name="Fader #4" orientation="vertical" size="3" maximum="127" minimum="0" />
+          <Param value="CC#84" type="fader" name="Fader #5" orientation="vertical" size="3" maximum="127" minimum="0" />
+          <Param value="CC#85" type="fader" name="Fader #6" orientation="vertical" size="3" maximum="127" minimum="0" />
+          <Param value="CC#86" type="fader" name="Fader #7" orientation="vertical" size="3" maximum="127" minimum="0" />
+          <Param value="CC#87" type="fader" name="Fader #8" orientation="vertical" size="3" maximum="127" minimum="0" />
+        </Group>
+
+        <Group name="Mutes" orientation="horizontal">
+          <Param value="CC#66" type="togglebutton" name="Mute #1" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#67" type="togglebutton" name="Mute #2" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#68" type="togglebutton" name="Mute #3" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#69" type="togglebutton" name="Mute #4" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#98" type="togglebutton" name="Mute #5" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#99" type="togglebutton" name="Mute #6" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#100" type="togglebutton" name="Mute #7" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#101" type="togglebutton" name="Mute #8" aspect="0.6" maximum="127" minimum="0" />
+        </Group>
+
+        <Group name="Solos" orientation="horizontal" columns="8">
+          <Param value="CC#66" type="togglebutton" name="Mute #1" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#67" type="togglebutton" name="Mute #2" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#68" type="togglebutton" name="Mute #3" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#69" type="togglebutton" name="Mute #4" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#98" type="togglebutton" name="Mute #5" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#99" type="togglebutton" name="Mute #6" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#100" type="togglebutton" name="Mute #7" aspect="0.6" maximum="127" minimum="0" />
+          <Param value="CC#101" type="togglebutton" name="Mute #8" aspect="0.6" maximum="127" minimum="0" />
+        </Group>
+
+      </Column>
+      <Column>
+        <Group name="Transport" orientation="horizontal">
+          <Param value="CC#115" type="button" name="Prev Pattern" aspect="0.8" maximum="127" minimum="0" />
+          <Param value="CC#116" type="button" name="Next Pattern" aspect="0.8" maximum="127" minimum="0" />
+          <Param value="A-6" type="button" name="Stop" aspect="0.8" maximum="127" minimum="0" />
+          <Param value="A#6" type="button" name="Play" aspect="0.8" maximum="127" minimum="0" />
+          <Param value="B-6" type="togglebutton" name="Record" aspect="0.8" maximum="127" minimum="0" />
+
+          <Param value="CC#119" type="button" name="Control Button #6" aspect="0.8" maximum="127" minimum="0" />
+          <Param value="CC#120" type="button" name="Control Button #7" aspect="0.8" maximum="127" minimum="0" />
+          <Param value="CC#108" type="button" name="Toggle Pattern Looping" aspect="0.8" maximum="127" minimum="0" />
+        </Group>
+      </Column>
+
+    </Page>
+  </Parameters>
+</Device>

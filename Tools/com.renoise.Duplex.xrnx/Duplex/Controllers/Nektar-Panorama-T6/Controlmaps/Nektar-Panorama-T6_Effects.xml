@@ -1,0 +1,203 @@
+<Device>
+  <Name>Nektar Panorama T6</Name>
+  <Author>Boonier</Author>
+  <Description>DSP control for Nektar Panorama T4/T6</Description>
+  <Parameters>
+    <Page>
+      <Row>
+        <Column>
+
+          <Row>
+            <Column>
+              <Group name="TrackNameLabel" orientation="horizontal">
+                <Param type="label" text="" font="big" name="Track name" size="14.7" aspect="0.05" />
+              </Group>
+            </Column>
+          </Row>
+
+          <Row>  
+            <Column>
+              <Group name="DeviceNameLabel" orientation="horizontal">
+                <Param type="label" text="" font="big" name="Device name" size="14.7" aspect="0.05" />
+              </Group>
+            </Column>
+          </Row>
+
+          <Row>
+            <Column>
+              <Group name="EffectEncoders1" orientation="horizontal">
+                <Param value="CC#89" type="dial" name="Dial #1" size="3.5" maximum="127" minimum="0" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectEncoders2" orientation="horizontal" columns="8">
+                <Param value="CC#90" type="dial" name="Dial #2" size="3.5" maximum="127" minimum="0" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectEncoders3" orientation="horizontal" columns="8">
+                <Param value="CC#91" type="dial" name="Dial #3" size="3.5" maximum="127" minimum="0" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectEncoders4" orientation="horizontal" columns="8">
+                <Param value="CC#92" type="dial" name="Dial #4" size="3.5" maximum="127" minimum="0" />
+              </Group>
+            </Column>
+          </Row>
+
+          <Row>
+            <Column>
+              <Group name="EffectParamLabels1" orientation="vertical">
+                <Param type="label" text="" font="bold" name="Label" size="3.5" aspect="0.3" />
+                <Param type="label" text="" font="big" name="Label" size="2.5" aspect="0.3" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectParamLabels2" orientation="vertical">
+                <Param type="label" text="" font="bold" name="Label" size="3.5" aspect="0.3" />
+                <Param type="label" text="" font="big" name="Label" size="2.5" aspect="0.3" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectParamLabels3" orientation="vertical">
+                <Param type="label" text="" font="bold" name="Label" size="3.5" aspect="0.3" />
+                <Param type="label" text="" font="big" name="Label" size="2.5" aspect="0.3" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectParamLabels4" orientation="vertical">
+                <Param type="label" text="" font="bold" name="Label" size="3.5" aspect="0.3" />
+                <Param type="label" text="" font="big" name="Label" size="2.5" aspect="0.3" />
+              </Group>
+            </Column>
+          </Row>
+
+
+          <Row>
+            <Column>
+              <Group name="EffectEncoders5" orientation="horizontal" columns="8">
+                <Param value="CC#116" type="dial" name="Dial #5" size="3.5" maximum="127" minimum="0" throttle="true" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectEncoders6" orientation="horizontal" columns="8">
+                <Param value="CC#117" type="dial" name="Dial #6" size="3.5" maximum="127" minimum="0" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectEncoders7" orientation="horizontal" columns="8">
+                <Param value="CC#118" type="dial" name="Dial #7" size="3.5" maximum="127" minimum="0" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectEncoders8" orientation="horizontal" columns="8">
+                <Param value="CC#119" type="dial" name="Dial #8" size="3.5" maximum="127" minimum="0" />
+              </Group>
+            </Column>
+          </Row>
+
+
+     
+
+          <Row>
+            <Column>
+              <Group name="EffectParamLabels5" orientation="vertical">
+                <Param type="label" text="" font="bold" name="Label" size="3.5" aspect="0.3" />
+                <Param type="label" text="" font="big" name="Label" size="2.5" aspect="0.3" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectParamLabels6" orientation="vertical">
+                <Param type="label" text="" font="bold" name="Label" size="3.5" aspect="0.3" />
+                <Param type="label" text="" font="big" name="Label" size="2.5" aspect="0.3" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectParamLabels7" orientation="vertical">
+                <Param type="label" text="" font="bold" name="Label" size="3.5" aspect="0.3" />
+                <Param type="label" text="" font="big" name="Label" size="2.5" aspect="0.3" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="EffectParamLabels8" orientation="vertical">
+                <Param type="label" text="" font="bold" name="Label" size="3.5" aspect="0.3" />
+                <Param type="label" text="" font="big" name="Label" size="2.5" aspect="0.3" />
+              </Group>
+            </Column>
+          </Row>
+
+          <Row>
+            <Column>
+              <Group name="DeviceSelectors" orientation="horizontal">
+                <Param type="label" text="Device:" name="Label" size="1.5" aspect="0.4" />
+                <Param value="CC#103" type="button" name="Prev device" aspect="0.6" maximum="127" minimum="0" />
+                <Param value="CC#104" type="button" name="Next device" aspect="0.6" maximum="127" minimum="0" />
+              </Group>
+            </Column>
+
+            <Column>
+              <Group name="PageSelectors" orientation="horizontal">
+                <Param type="label" text="Page:" name="Label" size="1.5" aspect="0.4" />
+                <Param value="CC#85" type="button" name="Prev page" aspect="0.6" maximum="127" minimum="0" />
+                <Param value="CC#86" type="button" name="Next page" aspect="0.6" maximum="127" minimum="0" />
+              </Group>
+            </Column>
+          </Row>
+
+        </Column>
+
+        <Column>
+          <!-- <Row>
+
+            <Column>
+              <Group name="Transport" orientation="horizontal">
+                <Param type="button" name="Prev Pattern" aspect="0.8" maximum="127" minimum="0" />
+                <Param type="button" name="Next Pattern" aspect="0.8" maximum="127" minimum="0" />
+                <Param type="button" name="Stop" aspect="0.8" maximum="127" minimum="0" />
+                <Param type="button" name="Play" aspect="0.8" maximum="127" minimum="0" />
+                <Param type="button" name="Record" aspect="0.8" maximum="127" minimum="0" />
+                <Param value="CC#105" type="button" name="Metronome" aspect="0.8" maximum="127" minimum="0" />
+                <Param value="CC#106" type="button" name="Follow" aspect="0.8" maximum="127" minimum="0" />
+                <Param value="CC#108" type="button" name="Toggle Pattern Looping" aspect="0.8" maximum="127" minimum="0" />
+              </Group>
+            </Column>
+
+          </Row> -->
+
+          <!-- <Row>
+            <Column>
+              <Group name="Levels" orientation="horizontal" columns="8">
+                <Param value="CC#80" type="fader" name="Fader #1" orientation="vertical" size="5" aspect="1" maximum="127" minimum="0" />
+                <Param value="CC#81" type="fader" name="Fader #2" orientation="vertical" size="5" aspect="1" maximum="127" minimum="0" />
+                <Param value="CC#82" type="fader" name="Fader #3" orientation="vertical" size="5" aspect="1" maximum="127" minimum="0" />
+                <Param value="CC#83" type="fader" name="Fader #4" orientation="vertical" size="5" aspect="1" maximum="127" minimum="0" />
+                <Param value="CC#84" type="fader" name="Fader #5" orientation="vertical" size="5" aspect="1" maximum="127" minimum="0" />
+                <Param value="CC#85" type="fader" name="Fader #6" orientation="vertical" size="5" aspect="1" maximum="127" minimum="0" />
+                <Param value="CC#86" type="fader" name="Fader #7" orientation="vertical" size="5" aspect="1" maximum="127" minimum="0" />
+                <Param value="CC#87" type="fader" name="Fader #8" orientation="vertical" size="5" aspect="1" maximum="127" minimum="0" />
+              </Group>
+            </Column>
+
+          </Row> -->
+
+        </Column>
+        
+
+      </Row>
+
+    </Page>
+  </Parameters>
+</Device>
